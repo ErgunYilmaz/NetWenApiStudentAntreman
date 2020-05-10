@@ -27,5 +27,6 @@ namespace NetWenApiStudentAntreman.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, $"{id} numaralı bir öğrenci bulunamadı...");
             }
         }
+        public HttpResponseMessage Put(int id)
     }
 }
